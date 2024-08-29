@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-logout {
+    cursor: pointer;
+    background-color: #ff4d4d; /* Red background color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .header-logout:hover {
+    background-color: #e60000; /* Darker red on hover */
+  }
+  

@@ -1,0 +1,74 @@
+/* 
+sidebar design css
+*/
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    background-color: #fff;
+    height: 100vh;
+    width: 124px;
+  }
+  
+  
+  
+  .sidebar-container .menu-item-list {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+  
+  }
+  
+  a {
+    color: #878383;
+    text-transform: capitalize;
+    font-size: 12.5px;
+    font-weight: 600;
+    text-decoration: none;
+  
+  }
+  
+  .active {
+    text-decoration: none !important;
+    background-color: rgb(170, 163, 163);
+  }
+  
+  
+  
+  
+  
+  .sidebar h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text color */
+    display: block;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sidebar ul li a.active {
+    background-color: #007bff; /* Blue background color for active link */
+    color: #ffffff; /* White text color */
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #495057; /* Slightly lighter dark color for hover */
+    color: #ffffff; /* White text color */
+  }
